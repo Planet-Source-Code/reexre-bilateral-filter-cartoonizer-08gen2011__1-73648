@@ -1,0 +1,20 @@
+PreEFFECT: None
+
+BILATERAL FILTER: 
+	Color Space: CieLAB
+	Radius: 4
+	Intensity Mode : 1 Gaussian2
+	Intensity Sigma: 0,355
+	Spatial   Sigma: 28,1
+	Iterations: 3
+
+CONTOUR: 
+	Sobel
+	Amount : 100
+	Lum/(A&B): 0,5
+
+LUMINANCE SEGMENTATION: 
+	Segments: 5
+	Presence: 75%
+
+
